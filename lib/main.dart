@@ -6,6 +6,7 @@ import 'settings.dart';
 import 'package:test_1/Change_lang.dart';
 import 'Logout.dart';
 import 'Translate.dart';
+import 'AboutUs.dart';
 
 void main() {
 
@@ -20,6 +21,7 @@ void main() {
         "/changelang":(context)=>Change_lang(),
         "/logout":(context)=>Logout(),
         "/translate":(context)=>Translate(),
+        "/aboutus":(context)=>AboutUs(),
       },
       debugShowCheckedModeBanner: false,
     )
