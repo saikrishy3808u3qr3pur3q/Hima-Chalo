@@ -8,6 +8,7 @@ class Translate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body:Text("dummy-2"),
       backgroundColor: Colors.grey,
       appBar: AppBar(
         backgroundColor: Colors.black,
