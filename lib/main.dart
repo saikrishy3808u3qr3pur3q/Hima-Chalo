@@ -5,6 +5,7 @@ import 'explore.dart';
 import 'settings.dart';
 import 'package:test_1/Change_lang.dart';
 import 'Logout.dart';
+import 'Translate.dart';
 
 void main() {
 
@@ -18,6 +19,7 @@ void main() {
         "/settings":(context)=>Settings(),
         "/changelang":(context)=>Change_lang(),
         "/logout":(context)=>Logout(),
+        "/translate":(context)=>Translate(),
       },
       debugShowCheckedModeBanner: false,
     )
@@ -86,6 +88,13 @@ class Home extends StatelessWidget {
                   ListTile(
                     onTap: (){
                       Navigator.pushNamed(context, "/logout");
+                    },
+                    leading: Icon(Icons.logout),
+                    title: Text("Logout"),
+                  ),
+                  ListTile(
+                    onTap: (){
+                      Navigator.pushNamed(context, "/translate");
                     },
                     leading: Icon(Icons.logout),
                     title: Text("Logout"),
