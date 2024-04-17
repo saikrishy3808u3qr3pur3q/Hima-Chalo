@@ -20,3 +20,7 @@ User Registration/Login: Register or log in to the app using your email or socia
 Bus Information: View bus schedules, routes, and availability. <br />
 Route Tracking: Track bus routes on the map to know the current location and ETA. <br />
 Notifications: Receive notifications about bus delays, route changes, and other updates. <br />
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
